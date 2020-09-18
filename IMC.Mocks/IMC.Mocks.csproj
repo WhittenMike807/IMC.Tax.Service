@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyConsole" Version="1.1.0">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMC.Entities\IMC.Entities.csproj" />
+    <ProjectReference Include="..\IMC.External.Service.TaxJar\IMC.External.Service.TaxJar.csproj" />
+  </ItemGroup>
+
+</Project>
